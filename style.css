@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-header{
+    background-color: black;
+    color: white;
+}
+.header-naim h1{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.container{
+    margin: 0 150px;
+}
+.header-flex{
+    display: flex;
+    align-items: baseline;
+    padding: 30px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header-flex .span-text{
+    text-align: end;
+}
+.header-naim{
+    width: 30%;
+}
+.nav-bar{
+    text-align: end;
+    width: 60%;
+}
+.nav-bar  li{
+    display: inline;
+    padding: 0 8px;
+}
+
+
+.active > a{
+    color: #E69012 !important;
+}
+.nav-bar  a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+/* .nav-bar >li> a:hover{
+    color: white;
+    background-color: #4E6AF4; 
+} */
+/* .nav-bar >a:active{
+    color: #E69012;
+
+} */
+.nav-bar a:hover{
+    color: #E69012;
+    
+}
+
+.span-text{
+    text-align: end;
+    width: 10%;
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(90, 90, 90);
+
+}
+.span-text > span >i{
+    padding: 0 10px;
+}
+#three{
+    background-color: #E69012;
+    color: #ffffff;
+    margin: 0 7px;
+    padding: 7px;
+    border-radius: 100%;
+}
+
+
+.header-background{
+    background-image: url("image/pexels-jonathan-petersson-1237119.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    
+}
+.header-contain{
+    text-align: center;
+    padding: 175px 400px;
+    background-color: rgba(0, 0, 0, 0.596);
+    margin: 0 auto;
+    font-family:  'Poppins', sans-serif;
+}
+
+.header-contain > h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.header-contain p{
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+.header-contain > button {
+    margin: 15px 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: rgba(255, 228, 196, 0);
+    color: white;
+}
+
+.header-contain button:hover{
+    background-color:#4E6AF4;
+    border: 1px solid #4E6AF4;
+    border-radius: 3px;
+    /* color: white; */
+    /* border: none; */
+}
+
+
+.three-contain{
+    display: flex;
+    padding: 30px 0px;
+    /* margin:40px 0; */
+    font-family:  'Poppins', sans-serif;
+}
+
+.three-contain> div{
+    border: 1px solid rgb(224, 224, 224);   
+    padding: 20px 25px; 
+    text-align: center;
+    margin: 15px;
+
+}
+.three-contain h3{
+    font-size: 30px;
+    padding: 10px 0;
+    text-transform: uppercase;
+
+}
+.three-contain span:first-child{
+    
+
+}
+.three-contain p{
+    font-size: 20px;
+    padding: 10px 0;
+
+}
+
+.three-contain button{
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid #4E6AF4;
+    border-radius: 3px;
+    color: #4E6AF4;
+    background-color: #ffffff;
+}
+.three-contain button:hover{
+    background-color: #4E6AF4;
+    color: white;
+    border: none;
+}
+.three-contain button:active{
+    background-color: #E69012;
+}
+
+
+
+.scend-background{
+    background-image: url("image/pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+}
+.scend-heading {
+    text-align: center;
+    /* font-size: 30px;
+    font-weight: 400; */
+    /* padding: 20px 0px; */
+    padding-top: 40px;
+    padding-bottom: 15px;
+    /* margin: 30px 0px; */
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family:  'Poppins', sans-serif;
+}
+.scend-heading h1{
+    font-size: 50px;
+    width: 400;
+}
+.scend-heading hr{
+    width: 80px;
+    margin: 0 auto;
+    color: #333333;
+
+}
+
+.three-contact{
+    display: flex;
+    padding-top: 10px ;
+    padding-bottom: 80px;
+    font-family:  'Poppins', sans-serif;
+}
+.single-id{
+    margin: 0 15px;
+    background-color: #ffffff;
+    border: 1px solid rgb(139, 139, 139);
+}
+
+.image >img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.diteils{
+    padding: 20px 25px;
+   
+}
+.diteils > h3{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.diteils > p{
+    padding: 15px 0;
+    font-size: 20px;
+}
+.diteils > button{
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 1px solid #4E6AF4;
+    border-radius: 3px;
+    color: #4E6AF4;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+.diteils >button:hover{
+    background-color: #4E6AF4;
+    color: white;
+    border: none;
+}
+
+
+.team{
+    text-align: center;
+    margin-top: 15px;
+    padding: 20px 0;
+   
+}
+.team h1{
+    padding: 10px 0;
+    font-size: 40px;
+    font-weight: 600;
+    font-family:  'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.warker-id{
+    margin-bottom: 30px;
+    font-family:  'Poppins', sans-serif;
+}
+
+.two-profile{
+    display: flex;
+}
+
+.profile{
+    display:flex;
+    border: 1px solid rgb(190, 190, 190);
+    box-shadow: 10px 15px 15px 3px rgba(0, 0, 0, 0.25);
+    margin:  15px;
+}
+.name{
+    padding: 20px 25px;
+}
+.name >h1{
+    font-size: 30px;
+    font-weight: 300px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.name >span{
+    padding: 10px 0;
+    font-size: 20px;
+}
+.name i{
+    padding: 5px;
+}
+.name >p{
+    padding: 20px 0;
+    font-size: 20px ;
+}
+.picter> img{
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-size: cover;
+}
+
+
+
+.foter-top{
+    background-color: #333333;
+    height: 80px;
+}
+
+.foter-background{
+    background-color: #666666;
+}
+.foter{
+    display: flex;
+    justify-content: center;
+}
+
+
+.foter{
+    display: flex;
+    justify-content: center;
+    padding:40px 15px;
+    font-family:  'Poppins', sans-serif;
+
+}
+.foter > div{
+    width: 33%;
+
+}
+.foter h1{
+    font-size: 35px;
+    padding: 20px 0;
+}
+/* .company h1{
+    font-size: 30px;
+    
+} */
+.company li{
+    display: inline ;
+    /* margin: 20px 0; */
+
+}
+.company ul{
+    margin: 20px 0;
+
+}
+.company a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 8px;
+    border-right: 1px solid white;
+    font-size: 20px;
+    /* margin: 2px; */
+}
+.company ul>li>a:first-child{
+    /* padding-left: none !important; */
+}
+.company ul>li>a:last-child{
+    /* border: none !important; */
+}
+#fst-log{
+    /* padding-left: none; */
+}
+.company span{
+    padding: 15px  0;
+    font-size: 20px;
+    font-weight: 300;
+    /* margin: 10px 0; */
+}
+.location p{
+    padding: 12px;
+    font-size: 20px;
+
+}
+/* .location p:first-child{
+    margin-top: 10px;
+} */
+.abouth p{
+    padding: 12px 0;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.abouth span{
+    padding: 7px;
+}
+
+
+
+
